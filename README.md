@@ -1,8 +1,7 @@
 # Glor
 Android App for localLLM chatting (Lightweight w/ STTtoTTS)
 
-![successfulApp](https://github.com/ETomberg391/Glor/assets/23483479/7b8e3a89-f958-4 ![issuefurther](https://github.com/ETomberg391/Glor/assets/23483479/2b920d78-3fef-437b-93f2-30ba2a30088f)
-2ca-9411-c993012d9bf9) 
+![successfulApp](https://github.com/ETomberg391/Glor/assets/23483479/7b8e3a89-f958-42ca-9411-c993012d9bf9) ![issuefurther](https://github.com/ETomberg391/Glor/assets/23483479/2b920d78-3fef-437b-93f2-30ba2a30088f)
 
 Some highlights:
 
