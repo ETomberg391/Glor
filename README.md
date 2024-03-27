@@ -5,19 +5,23 @@ Android App for localLLM chatting (Lightweight w/ STTtoTTS)
 
 ![Screenshot_20240327-140537-imageonline co-merged](https://github.com/ETomberg391/Glor/assets/23483479/e1b700b6-a508-4a2d-a712-261463523aea)
 
+
 Glor is a lightweight android app to use with your openai API local LLM's. Currently only utilized with a Textgen WebUI server for the customizable openai API.
 Pleasenote: The Audio features require /v1/audio/speechAndTextGenerations API endpoint, which will be linked into a seperate Repo specifically for that feature.
+
 
 The total Server deisgn to work with this currently requires:
 - Textgen WebUI server (https://github.com/oobabooga/text-generation-webui)
 - WhisperAI extension (whisper_stt in textgen webui GUI Session Tab)
 - AllTalk AI /w API running defaults in Standalone mode (https://github.com/erew123/alltalk_tts)
-    (Cannot be an extension of TextGen, repeats text too much)
+      (Cannot be an extension of TextGen, repeats text too much)
 - Custom /v1/audio/speechAndTextGenerations additions to \text-generation-webui\extensions\openai\script.py
-    (Repo still Building for this - standby)
+      (Repo still Building for this - standby)
+
 
 
 Some highlights:
+
 
 Audio Features (STT to TTS):
 - good quality recording
