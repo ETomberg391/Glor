@@ -39,3 +39,8 @@ Instruction Template. Currently only set to Alpaca, Mistral, and ChatML. More wo
 Max Tokens. Default should be 2000. Range from 100 to 4000.
 Temperature. Default is 0.7. Range from 0.0 to 1.0
 Save button will save the settings. (But instruction template. That needs to be fixed sometime.)
+
+Known Bugs:
+- Rotating screen clears display box
+- Saves all audio files to Music/recordings/ and doesn't delete. Although each request tends to be 30~250KB's,might not be too much of an issue.
+- Option to save Response audio not working. The issue is server side. Once it send the audio on the server, it auto-deletes it currently so no chance to download.
