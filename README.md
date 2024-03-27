@@ -16,7 +16,7 @@ The total Server deisgn to work with this currently requires:
 - AllTalk AI /w API running defaults in Standalone mode (https://github.com/erew123/alltalk_tts)
       (Cannot be an extension of TextGen, repeats text too much)
 - Custom /v1/audio/speechAndTextGenerations additions to \text-generation-webui\extensions\openai\script.py
-      (Repo still Building for this - standby)
+      (Repo for /v1/audio/speechAndTextGenerations: https://github.com/ETomberg391/STTtoTTS_v1)
 
 
 
