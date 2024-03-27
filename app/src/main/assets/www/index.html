@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Glor.ai</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<div id="output-box"></div>
+
+<div class="input-container">
+  <input type="text" id="text-input" placeholder="Enter text">
+  <button id="submit-btn">Submit</button>
+</div>
+
+<div class="button-container">
+  <button id="record-btn">Record</button>
+  <div class="record-animation" id="record-animation" style="display: none;"></div>
+  <div class="settings-container">
+    <button class="settings-toggle" id="settings-toggle">Settings</button>
+    <div class="settings-content" id="settings-content">
+      <label for="endpoint-url">Endpoint URL:</label>
+      <input type="text" id="endpoint-url" value="https://10.9.0.3:5000">
+      <label for="openai-api-key">OpenAI API Key:</label>
+      <input type="text" id="openai-api-key" placeholder="Enter your OpenAI API key">
+      <label for="instruction-template">Instruction Template:</label>
+      <select id="instruction-template">
+        <option value="Alpaca">Alpaca</option>
+        <option value="Mistral">Mistral</option>
+        <option value="ChatML">ChatML</option>
+      </select>
+
+      <div class="slider-container">
+        <label for="max-tokens">Max Tokens:</label>
+        <span class="slider-value" id="max-tokens-value">2000</span>
+        <input type="range" id="max-tokens" min="100" max="4000" step="100" value="2000">
+      </div>
+
+      <div class="slider-container">
+        <label for="temperature">Temperature:</label>
+        <span class="slider-value" id="temperature-value">0.7</span>
+        <input type="range" id="temperature" min="0" max="1" step="0.1" value="0.7">
+      </div>
+      <button id="save-settings-btn">Save</button>
+      <div id="notification" style="display: none;"></div>
+    </div>
+  </div>
+</div>
+
+<div class="loading-message" id="loading-message" style="display: none;">
+  <span id="loading-text"></span>
+  <div class="loading-animation"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
